@@ -293,7 +293,7 @@ for leggo in ['Cloth','Leather','Mail','Plate','Jewel']:
         rules = createRules(ranks,names)
         sheetRules.clear()
         for rule in rules:
-            saveheetRules.append(rule)
+            sheetRules.append(rule)
         sheetRules.save()
     print("Conditional formatting has already been applied")
 
