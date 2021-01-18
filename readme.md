@@ -7,7 +7,7 @@ LegTracker uses the WoW API to show the characters in a given guild who are able
 Requires Python 3, created using version 3.8.6.
 
 ## Blizzard API Setup
-Coming soon...
+First step is to get a **Client ID** and **Client Secret** in order to access to Blizzard API. Instructions on how to do that can be found [here](https://develop.battle.net/documentation/guides/getting-started). Make a note of the **Client ID** and **Client Secret**, they will be needed in the Backend Setup.
 
 ## Google API Setup
 

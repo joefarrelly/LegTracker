@@ -114,7 +114,7 @@ for counter, alt in enumerate(roster, start = 1):
 
 # Find a workbook by name and open the first sheet
 # Make sure you use the right name here.
-spread = Spread(SPREADSHEET_KEY,config=get_config(os.getcwd(),'client_secret.json'))
+spread = Spread(SPREADSHEET_KEY,config=get_config(os.getcwd() + '\\legtracker','client_secret.json'))
 
 for alt in trackedAlts:
     # CLOTH LEGGO
