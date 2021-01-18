@@ -62,6 +62,7 @@ Update repo:
     * REALM: The realm slug that the guild is located on.
     * GUILD: The name slug of the guild.
     * RANKS: Not needed at this point, functionality not yet implemented.
+
 Install the packages needed:
 ```bash
 pip install -r legtracker\requirements.txt
