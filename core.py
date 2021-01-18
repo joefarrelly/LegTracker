@@ -295,7 +295,9 @@ for leggo in ['Cloth','Leather','Mail','Plate','Jewel']:
         for rule in rules:
             sheetRules.append(rule)
         sheetRules.save()
-    print("Conditional formatting has already been applied")
+        print("Conditional formatting has been added")
+    else:
+        print("Conditional formatting has already been applied")
 
 end = time.perf_counter()
 finalTime = end - start
