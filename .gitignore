@@ -1,0 +1,4 @@
+# ignored files
+.env
+client_secret.json
+instructions.txt
