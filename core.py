@@ -73,7 +73,7 @@ try:
     SPREADSHEET_KEY=os.getenv("SPREADSHEET_KEY")
     REALM=os.getenv("REALM")
     GUILD=os.getenv("GUILD")
-    RANKS=os.getenv("RANKS").split(".")
+    # RANKS=os.getenv("RANKS").split(".")
 except KeyError:
     print("Environment variables not set correctly") 
 
