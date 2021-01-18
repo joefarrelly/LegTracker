@@ -49,20 +49,20 @@ Additonally we need to enable the Google Drive API as well:
 * The **"Spreadsheet ID"** can be extracted from the URL of the sheet, it is the value located between `/d/` and `/edit`.
 
 ## Backend Setup
-* Clone the repo:
+Clone the repo:
 ```bash
 git clone https://github.com/joefarrelly/LegTracker.git 
 ```
-* Update repo:
-    * Move and rename the JSON downloaded in the Google API Setup to `~/LegTracker/client_secret.json`.
-    * Using `.env.sample` as a template, create `.env` in `~/LegTracker/.env`, where the values are:
-        * BLIZZ_CLIENT: Your Client ID from the Blizzard API Setup.
-        * BLIZZ_SECRET: Your Client Secret from the Blizzard API Setup.
-        * SPREADSHEET_KEY: The Spreadsheet ID from the Google Sheet Setup.
-        * REALM: The realm slug that the guild is located on.
-        * GUILD: The name slug of the guild.
-        * RANKS: Not needed at this point, functionality not yet implemented.
-* Install the packages needed:
+Update repo:
+* Move and rename the JSON downloaded in the Google API Setup to `~/LegTracker/client_secret.json`.
+* Using `.env.sample` as a template, create `.env` in `~/LegTracker/.env`, where the values are:
+    * BLIZZ_CLIENT: Your Client ID from the Blizzard API Setup.
+    * BLIZZ_SECRET: Your Client Secret from the Blizzard API Setup.
+    * SPREADSHEET_KEY: The Spreadsheet ID from the Google Sheet Setup.
+    * REALM: The realm slug that the guild is located on.
+    * GUILD: The name slug of the guild.
+    * RANKS: Not needed at this point, functionality not yet implemented.
+Install the packages needed:
 ```bash
 pip install -r legtracker\requirements.txt
 ```
