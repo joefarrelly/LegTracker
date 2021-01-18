@@ -46,13 +46,14 @@ Additonally we need to enable the Google Drive API as well:
 * Enter the **"Service account ID"** generated in the Google API Setup and hit Enter on the keyboard.
 * Uncheck the **"Notify people"** checkbox and click the **"Send"** button in the bottom right of the window.
 * Make a note of the **"Spreadsheet ID"**, it will be needed in the Backend Setup.
-* The **"Spreadsheet ID"** can be extracted from the URL of the sheet, it is the value located between **"/d/"** and **"/edit"**.
+* The **"Spreadsheet ID"** can be extracted from the URL of the sheet, it is the value located between `/d/` and `/edit`.
 
 ## Backend Setup
 * Clone the repo:
 ```bash
 git clone https://github.com/joefarrelly/LegTracker.git 
 ```
+* Update repo:
     * Move and rename the JSON downloaded in the Google API Setup to `~/LegTracker/client_secret.json`.
     * Using `.env.sample` as a template, create `.env` in `~/LegTracker/.env`, where the values are:
         * BLIZZ_CLIENT: Your Client ID from the Blizzard API Setup.
