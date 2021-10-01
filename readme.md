@@ -73,3 +73,17 @@ pip install -r legtracker\requirements.txt
 ```bash
 legtracker\core.py
 ```
+
+## Images
+
+This is an example of how the spreadsheet will look after running the script.
+
+![demo_cloth](https://i.imgur.com/Akpoc47.png)
+
+![demo_leather](https://i.imgur.com/QPpdxim.png)
+
+![demo_mail](https://i.imgur.com/1w8VTrM.png)
+
+![demo_plate](https://i.imgur.com/syMFLiE.png)
+
+![demo_jewel](https://i.imgur.com/ajOmjLT.png)
